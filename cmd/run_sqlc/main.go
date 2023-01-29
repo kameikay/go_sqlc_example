@@ -42,7 +42,7 @@ func main() {
 	}
 
 	// Exemplo de uso do Delete
-	err = queries.DeleteCategory(ctx, "25358a0b-8470-4843-b071-b6d0cefdc9c3")
+	err = queries.DeleteCategory(ctx, "c63e0fce-40d5-43f9-95e5-4391b0cb2478")
 	if err != nil {
 		panic(err)
 	}
